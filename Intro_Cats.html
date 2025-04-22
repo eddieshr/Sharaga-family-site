@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Furry Friends</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #fff6e6, #ffe0f0);
+      color: #2d2d2d;
+    }
+
+    header, footer {
+      background: #7f5af0;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    nav {
+      background: #6246ea;
+      display: flex;
+      justify-content: center;
+      padding: 0.5em 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2em 1em;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 3em;
+    }
+
+    h2 {
+      border-bottom: 3px solid #ddd;
+      padding-bottom: 0.5em;
+      margin-bottom: 1em;
+      color: #3d1e6d;
+    }
+
+    #prrr-intro {
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: 2em;
+      padding: 1em;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .landing-banner {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1em;
+      margin: 2em auto;
+    }
+
+    .landing-banner img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 12px;
+      aspect-ratio: 4/3;
+    }
+
+    .cat-description {
+      background: white;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      font-size: 1.1em;
+      margin-bottom: 1em;
+    }
+
+    .snapshot-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1em;
+    }
+
+    .snapshot-grid a {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .snapshot-grid img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .snapshot-grid a:hover img {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      .snapshot-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Furry Friends</h1>
+  </header>
+
+  <nav>
+    <a href="#prrr">Prrrr</a>
+    <a href="#sausage">Sausage</a>
+    <a href="#masha">Masha</a>
+  </nav>
+
+  <main>
+    <section id="prrr">
+      <div id="prrr-intro">
+        Meet our two fluffy companions who rule the house with paws of love and tails full of sass.
+      </div>
+      <div class="landing-banner">
+        <img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.08.50.jpeg" alt="Both cats 1">
+        <img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.34.03_222.jpeg" alt="Both cats 2">
+        <img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.34.03_22.jpeg" alt="Both cats 3">
+      </div>
+    </section>
+
+    <section id="sausage">
+      <h2>Sausage</h2>
+      <div class="cat-description">
+        Hi there and hello! My name is <strong>Sausage</strong>. I’m 4 years old, ginger by design, and friendly by nature. I love children, cuddles, and a good back massage. My perfect day includes naps, snack breaks, and watching TV with my humans. If you're on the couch, I’ll be there.
+      </div>
+      <div class="snapshot-grid">
+        <a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-19 at 18.35.58_2.jpg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-19 at 18.35.58_2.jpg" alt="Sausage 1"></a>
+        <a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.31.30.jpeg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.31.30.jpeg" alt="Sausage 2"></a>
+        <a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.31.31.jpeg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.31.31.jpeg" alt="Sausage 3"></a>
+        <a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.31.31_2.jpeg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.31.31_2.jpeg" alt="Sausage 4"></a>
+      </div>
+    </section>
+
+    <section id="masha">
+      <h2>Masha</h2>
+      <div class="cat-description">
+        My name is <strong>Masha</strong>, the snobbish sister of Sausage. I’m 4 years old and part of a royal lineage—at least, that’s what I believe. I specialize in long naps, cozy cuddles, and observing life from soft pillows. Elegance is a full-time responsibility.
+      </div>
+      <div class="snapshot-grid">
+        <a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.12.47.jpeg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.12.47.jpeg" alt="Masha 1"></a>
+        <a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.12.48_2.jpeg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.12.48_2.jpeg" alt="Masha 2"></a>
+        <a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.12.49.jpeg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.12.49.jpeg" alt="Masha 3"></a>
+        <a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.12.48_22.jpeg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 10.12.48_22.jpeg" alt="Masha 4"></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Our Furry Friends</p>
+  </footer>
+</body>
+</html>

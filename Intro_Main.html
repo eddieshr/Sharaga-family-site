@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sharage Family</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f0f2f5, #e0eafc);
+      color: #333;
+    }
+
+    header, footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+      padding: 0.5em 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2em 1em;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 3em;
+    }
+
+    h2 {
+      border-bottom: 3px solid #ccc;
+      padding-bottom: 0.5em;
+      margin-bottom: 1em;
+      color: #2c3e50;
+    }
+
+    .picture-text {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      margin-bottom: 2em;
+      background: white;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .picture-text img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .picture-text p {
+      margin: 0;
+      font-size: 1.1em;
+    }
+
+    .snapshot-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1em;
+    }
+
+    .snapshot-grid a {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .snapshot-grid img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .snapshot-grid a:hover img {
+      transform: scale(1.05);
+    }
+
+    @media (min-width: 768px) {
+      .picture-text {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .picture-text:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+
+      .picture-text img {
+        flex: 1;
+      }
+
+      .picture-text div {
+        flex: 1;
+        padding: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Sharaga Family</h1>
+  </header>
+
+  <nav>
+    <a href="#about-us">About Us</a>
+    <a href="#life-snapshots">Life Snapshots</a>
+    <a href="#king-queen">King & Queen</a>
+  </nav>
+
+  <main>
+    <section>
+      <img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 09.37.00.jpeg" alt="Sharage Family Main Image" style="width:100%; max-width:800px; display:block; margin:auto; border-radius:10px;">
+    </section>
+
+    <section id="about-us">
+      <h2>About Us</h2>
+      <div class="picture-text">
+        <img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 15.18.09.jpeg" alt="About us 1">
+        <div><p>We’re Natalie and Eddie Sharaga, married for 18 wonderful years and proud parents to three amazing children: Arielle (17), Rianne (15), and Dean (12). Together, we’ve built a close-knit family grounded in mutual respect, curiosity, and joy. Our home is filled with laughter, learning, and shared experiences—whether we’re exploring new places or simply enjoying quiet evenings together.</p></div>
+      </div>
+      <div class="picture-text">
+        <img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-22 at 12.05.20.jpeg" alt="About us 2">
+        <div><p>As a family, we love experiences that engage our minds and bring us closer together. One of our favorite things to do is solve escape rooms—whether in person or virtual. We enjoy challenging our brains, working as a team, and celebrating the little victories that come with cracking a tough puzzle.</p></div>
+      </div>
+      <div class="picture-text">
+        <img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 15.22.58.jpeg" alt="About us 3">
+        <div><p>We also love traveling together and experiencing new places, foods, and cultures. Whether we’re watching a favorite TV series, hiking outdoors, or playing board games on a rainy afternoon, our best memories are the ones we create together. We value connection, shared experiences, and making the most of the time we spend as a family.</p></div>
+      </div>
+    </section>
+
+<section id="life-snapshots">
+      <h2>Life Snapshots</h2>
+      <div class="snapshot-grid">
+        <a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 15.24.25.jpeg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 15.24.25.jpeg" alt="Snapshot 1"></a>
+        <a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 15.20.21.jpeg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/WhatsApp Image 2025-04-14 at 15.20.21.jpeg" alt="Snapshot 2"></a>
+        <a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/20210925_152810.jpg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/20210925_152810.jpg" alt="Snapshot 3"></a>
+        <a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/20221222_124028.jpg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/20221222_124028.jpg" alt="Snapshot 4"></a>
+		<a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/20230710_122723.jpg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/20230710_122723.jpg" alt="Snapshot 5"></a>
+		<a href="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/20210927_120614.jpg" target="_blank"><img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/20210927_120614.jpg" alt="Snapshot 6"></a>
+      </div>
+    </section>
+
+    <section id="king-queen">
+      <h2>King and Queen</h2>
+      <div class="picture-text">
+        <img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/1743021665312.jpeg" alt="Eddie">
+        <div><p> Hello there! I'm <strong>Eddie</strong>, an advisor to scientific groups and start-ups specializing in medical devices and life sciences. With my Master's in Electrical Engineering and Project Management, I've been able to channel my lifelong passion for science and its real-world applications into a fulfilling career.
+
+When I'm not immersed in my professional work, I cultivate a rich personal life through various creative pursuits. The classical guitar and painting serve as my artistic outlets, helping me maintain balance and nurture my creative spirit. I'm also an avid reader and music enthusiast, constantly seeking new sources of inspiration. My wanderlust regularly leads me to explore different parts of the world, where I embrace diverse cultures and gain fresh perspectives.
+
+Family remains central to my life, whether we're embarking on adventures together, gathering for meals, or simply enjoying each other's company, these moments are what I treasure most.</p></div>
+      </div>
+      <div class="picture-text">
+        <img src="C:/Users/User/OneDrive/Desktop/Relocation/Sharaga Portfolio/1737973680578.jpeg" alt="Natalie">
+        <div><p>I’m <strong>Natalie</strong>! I hold a Ph.D. in Chemistry and currently work remotely for Intel, where I am an Engineering manager and drive advanced manufacturing operations. I’ve always been drawn to how things work and enjoy optimizing both complex systems and daily routines.
+
+When I'm not working, I enjoy getting my hands dirty in the garden, playing sports, and being outdoors. Taking long walks helps clear my mind, and staying active keeps me energized. Animals bring me peace and happiness. I have two cats at home and enjoy watching wildlife whenever I can.
+
+I like taking photos and exploring new places, whether that means traveling far away or discovering interesting spots close to home. I'm curious by nature, practical in my approach, and always trying to learn and grow while creating a good life for my family.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 The Sharaga Family</p>
+	<p>eddieshr@gmail.com</p>
+	<p>natalieshr@gmail.com</p>
+  </footer>
+</body>
+</html>
